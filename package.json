@@ -1,0 +1,27 @@
+{
+    "name": "reactime-chat",
+    "version": "1.0.0",
+    "description": "Realtime Chat with nodejs and React",
+    "main": "index.js",
+    "workspaces": [
+        "src/*"
+    ],
+    "scripts": {
+        "commit": "sui-mono commit",
+        "frontend": "",
+        "backend": "",
+        "prettier":"",
+        "linter":"",
+        "linter:fix":""
+    },
+    "keywords": [
+        "Chat",
+        "react",
+        "node"
+    ],
+    "author": "AlbertoVf",
+    "license": "MIT",
+    "devDependencies": {
+        "@s-ui/mono": "2.34.0"
+    }
+}

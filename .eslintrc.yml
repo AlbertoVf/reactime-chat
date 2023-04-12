@@ -1,0 +1,32 @@
+---
+root: true
+
+extends:
+    - standard
+
+parserOptions:
+    ecmaVersion: latest
+    sourceType: module
+
+env:
+    browser: true
+    node: true
+    jasmine: true
+    jest: true
+    jest/globals: true
+    commonjs: true
+    es2021: true
+
+rules:
+    indent:
+        - error, 2
+    linebreak-style:
+        - error, unix
+    quotes:
+        - error, single
+    semi":
+        - error, always
+    no-empty: warn
+    no-cond-assign:
+        - error, always
+    for-direction:  off
